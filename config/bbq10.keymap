@@ -196,7 +196,7 @@
         alt_layer {
             bindings = <
 &kp LEFT         &kp RIGHT
-&kp F12          &kp LEFT_WIN  &mkp MB1      &kp F5         &kp F10
+&kp F12          &kp LEFT_WIN  &mkp MB1      &kp F5         &kp F11
 &mtt TILDE HASH  &mtt HOME N1  &mtt UP N2    &mtt PG_UP N3  &mtt LBKT LPAR   &mtt RBKT RPAR     &mtt LT UNDER     &mtt GT MINUS   &mtt CARET PLUS   &mtt PERCENT AT
 &mtt EQUAL STAR  &mtt LEFT N4  &mtt DOWN N5  &mtt RIGHT N6  &mtt BSLH SLASH  &mtt PIPE COLON    &mtt AMPS SEMI    &mtt APOS APOS  &mtt DQT DQT      &kp BSPC
 &MAN             &mtt END N7   &mtt DOWN N8  &mtt PG_DN N9  &mtt LBRC QMARK  &mtt RBRC EXCL     &mtt GRAVE COMMA  &mtt DOT DOT    &mtt C_MUTE DLLR  &kp ENTER
