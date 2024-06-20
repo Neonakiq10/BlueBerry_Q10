@@ -189,18 +189,18 @@
 &mtt LS(Q) Q  &mtt LS(W) W    &mtt LS(E) E  &mtt LS(R) R     &mtt LS(T) T      &mtt LS(Y) Y    &mtt LS(U) U  &mtt LS(I) I  &mtt LS(O) O      &mtt LS(P) P
 &mtt LS(A) A  &mtt LS(S) S    &mtt LS(D) D  &mtt LS(F) F     &mtt LS(G) G      &mtt LS(H) H    &mtt LS(J) J  &mtt LS(K) K  &mtt LS(L) L      &kp BSPC
 &ALTL         &mtt LS(Z) Z    &mtt LS(X) X  &mtt LS(C) C     &mtt LS(V) V      &mtt LS(B) B    &mtt LS(N) N  &mtt LS(M) M  &mtt PSCRN LG(N)  &kp ENTER
-                              &SHFT                          &mtt LSHFT K_PWR  &kp SPACE       &EALT         &sk LCTRL
+                              &SHFT                          &mtt LSHFT LG(L)  &kp SPACE       &EALT         &sk LCTRL
             >;
         };
 
         alt_layer {
             bindings = <
-&kp F12          &kp F5
-&kp LGUI         &kp K_VOL_DN  &kp K_PLAY_PAUSE  &kp K_VOL_UP   &kp RSHFT
-&mtt TILDE HASH  &mtt HOME N1  &mtt UP N2        &mtt PG_UP N3  &mtt LBKT LPAR   &mtt RBKT RPAR     &mtt LT UNDER     &mtt GT MINUS   &mtt CARET PLUS   &mtt PERCENT AT
-&mtt EQUAL STAR  &mtt LEFT N4  &mtt DOWN N5      &mtt RIGHT N6  &mtt BSLH SLASH  &mtt PIPE COLON    &mtt AMPS SEMI    &mtt APOS APOS  &mtt DQT DQT      &kp BSPC
-&MAN             &mtt END N7   &mtt DOWN N8      &mtt PG_DN N9  &mtt LBRC QMARK  &mtt RBRC EXCL     &mtt GRAVE COMMA  &mtt DOT DOT    &mtt C_MUTE DLLR  &kp ENTER
-                               &SHFT                            &hm2 EP_TOG N0   &kp SPACE          &EALT             &sk LCTRL
+&kp LEFT         &kp RIGHT
+&kp F12          &kp LEFT_WIN  &mkp MB1      &kp F5         &kp F10
+&mtt TILDE HASH  &mtt HOME N1  &mtt UP N2    &mtt PG_UP N3  &mtt LBKT LPAR   &mtt RBKT RPAR     &mtt LT UNDER     &mtt GT MINUS   &mtt CARET PLUS   &mtt PERCENT AT
+&mtt EQUAL STAR  &mtt LEFT N4  &mtt DOWN N5  &mtt RIGHT N6  &mtt BSLH SLASH  &mtt PIPE COLON    &mtt AMPS SEMI    &mtt APOS APOS  &mtt DQT DQT      &kp BSPC
+&MAN             &mtt END N7   &mtt DOWN N8  &mtt PG_DN N9  &mtt LBRC QMARK  &mtt RBRC EXCL     &mtt GRAVE COMMA  &mtt DOT DOT    &mtt C_MUTE DLLR  &kp ENTER
+                               &SHFT                        &hm2 EP_TOG N0   &kp SPACE          &EALT             &sk LCTRL
             >;
         };
 
